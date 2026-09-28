@@ -9,8 +9,8 @@ import streamlit as st
 
 from utils import load_python_classification, download_button
 
-st.set_page_config(page_title="Menu Intelligence -- DineIQ", layout="wide")
-st.title("Menu Intelligence Dashboard")
+st.set_page_config(page_title="Menu Intelligence -- DineIQ", page_icon="\U0001F35B", layout="wide")
+st.title("\U0001F35B Menu Intelligence Dashboard")
 st.caption("Every dish, classified and ranked -- profit margin, volume, rating and wastage side by side.")
 
 items = load_python_classification()  # item_features columns + python_label
@@ -26,14 +26,14 @@ category_filter = st.multiselect(
 shown = items[items["python_label"].isin(label_filter) & items["category_name"].isin(category_filter)]
 
 col1, col2, col3, col4 = st.columns(4)
-col1.metric("Dishes shown", f"{len(shown):,}")
-col2.metric("Avg margin", f"{shown['profit_margin'].mean():.1%}" if len(shown) else "--")
-col3.metric("Avg rating", f"{shown['avg_rating'].mean():.1f}" if len(shown) else "--")
-col4.metric("Avg wastage %", f"{shown['wastage_percent'].mean():.1%}" if len(shown) else "--")
+col1.metric("\U0001F37D Dishes shown", f"{len(shown):,}")
+col2.metric("\U0001F4C8 Avg margin", f"{shown['profit_margin'].mean():.1%}" if len(shown) else "--")
+col3.metric("\U00002B50 Avg rating", f"{shown['avg_rating'].mean():.1f}" if len(shown) else "--")
+col4.metric("\U0001F5D1 Avg wastage %", f"{shown['wastage_percent'].mean():.1%}" if len(shown) else "--")
 
 st.divider()
 
-st.subheader("Profit margin vs. sales volume")
+st.subheader("\U0001F4CA Profit margin vs. sales volume")
 fig = px.scatter(
     shown, x="total_quantity_sold", y="profit_margin", color="python_label",
     hover_name="item_name", size="net_revenue",

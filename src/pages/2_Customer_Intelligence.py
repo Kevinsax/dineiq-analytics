@@ -6,8 +6,8 @@ import streamlit as st
 
 from utils import load_customer_segments, download_button
 
-st.set_page_config(page_title="Customer Intelligence -- DineIQ", layout="wide")
-st.title("Customer Intelligence Dashboard")
+st.set_page_config(page_title="Customer Intelligence -- DineIQ", page_icon="\U0001F465", layout="wide")
+st.title("\U0001F465 Customer Intelligence Dashboard")
 st.caption("RFM segments -- who's loyal, who's slipping away, and who's brand new.")
 
 segments = load_customer_segments()
@@ -18,10 +18,10 @@ seg_filter = st.multiselect(
 shown = segments[segments["segment"].isin(seg_filter)]
 
 col1, col2, col3, col4 = st.columns(4)
-col1.metric("Customers shown", f"{len(shown):,}")
-col2.metric("Loyal High Spenders", f"{(segments['segment'] == 'Loyal High Spender').sum():,}")
-col3.metric("At Risk", f"{(segments['segment'] == 'At Risk').sum():,}")
-col4.metric("New Customers", f"{(segments['segment'] == 'New Customer').sum():,}")
+col1.metric("\U0001F465 Customers shown", f"{len(shown):,}")
+col2.metric("\U0001F31F Loyal High Spenders", f"{(segments['segment'] == 'Loyal High Spender').sum():,}")
+col3.metric("\U000026A0 At Risk", f"{(segments['segment'] == 'At Risk').sum():,}")
+col4.metric("\U0001F195 New Customers", f"{(segments['segment'] == 'New Customer').sum():,}")
 
 st.divider()
 

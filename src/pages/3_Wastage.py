@@ -6,20 +6,20 @@ import streamlit as st
 
 from utils import load_wastage_risk, download_button
 
-st.set_page_config(page_title="Wastage -- DineIQ", layout="wide")
-st.title("Wastage Dashboard")
+st.set_page_config(page_title="Wastage -- DineIQ", page_icon="\U0001F5D1", layout="wide")
+st.title("\U0001F5D1 Wastage Dashboard")
 st.caption("What's being thrown away, and which dish is likely to be next.")
 
 items = load_wastage_risk()  # item_features columns + predicted_wastage_risk
 
 col1, col2, col3 = st.columns(3)
-col1.metric("Avg wastage % across menu", f"{items['wastage_percent'].mean():.1%}")
+col1.metric("\U0001F5D1 Avg wastage % across menu", f"{items['wastage_percent'].mean():.1%}")
 highest_wastage_item = items.sort_values("wastage_percent", ascending=False).iloc[0]["item_name"]
-col2.metric("Highest wastage item", highest_wastage_item)
+col2.metric("\U0001F6AE Highest wastage item", highest_wastage_item)
 highest_predicted_risk_item = (
     items.nlargest(1, "predicted_wastage_risk")["item_name"].iloc[0]
 )
-col3.metric("Highest predicted risk item", highest_predicted_risk_item)
+col3.metric("\U0001F52E Highest predicted risk item", highest_predicted_risk_item)
 
 st.divider()
 

@@ -8,8 +8,8 @@ import streamlit as st
 
 from utils import load_recommendations, download_button
 
-st.set_page_config(page_title="Recommendations -- DineIQ", layout="wide")
-st.title("Recommendation Engine")
+st.set_page_config(page_title="Recommendations -- DineIQ", page_icon="\U0001F4A1", layout="wide")
+st.title("\U0001F4A1 Recommendation Engine")
 st.caption("Every recommendation is backed by real numbers pulled from Pair B's models -- none of these are unexplained suggestions.")
 
 recs = load_recommendations()
@@ -21,10 +21,10 @@ priority_filter = st.multiselect(
 shown = recs[recs["priority"].isin(priority_filter)]
 
 col1, col2, col3, col4 = st.columns(4)
-col1.metric("Total recommendations", f"{len(shown):,}")
-col2.metric("Critical", f"{(shown['priority'] == 'Critical').sum():,}")
-col3.metric("High", f"{(shown['priority'] == 'High').sum():,}")
-col4.metric("Medium", f"{(shown['priority'] == 'Medium').sum():,}")
+col1.metric("\U0001F4A1 Total recommendations", f"{len(shown):,}")
+col2.metric("\U0001F534 Critical", f"{(shown['priority'] == 'Critical').sum():,}")
+col3.metric("\U0001F7E0 High", f"{(shown['priority'] == 'High').sum():,}")
+col4.metric("\U0001F7E1 Medium", f"{(shown['priority'] == 'Medium').sum():,}")
 
 st.divider()
 

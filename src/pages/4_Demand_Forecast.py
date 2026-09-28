@@ -10,8 +10,8 @@ import streamlit as st
 
 from utils import load_demand_forecast, load_forecast_metrics, download_button
 
-st.set_page_config(page_title="Forecast -- DineIQ", layout="wide")
-st.title("Forecast Dashboard")
+st.set_page_config(page_title="Forecast -- DineIQ", page_icon="\U0001F4C8", layout="wide")
+st.title("\U0001F4C8 Forecast Dashboard")
 st.caption("Historical vs. forecast demand, by menu category. Built directly from order history -- see FORECAST_NOTES.md for method and honest limitations.")
 
 forecast = load_demand_forecast()

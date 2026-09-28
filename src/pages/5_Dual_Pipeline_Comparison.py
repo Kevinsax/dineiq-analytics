@@ -12,10 +12,10 @@ import os
 import plotly.express as px
 import streamlit as st
 
-from utils import load_classification_comparison, download_button
+from utils import load_classification_comparison, download_button, FEATURES_DIR
 
-st.set_page_config(page_title="Dual-Pipeline Comparison -- DineIQ", layout="wide")
-st.title("Dual-Pipeline Comparison Dashboard")
+st.set_page_config(page_title="Dual-Pipeline Comparison -- DineIQ", page_icon="\U00002696", layout="wide")
+st.title("\U00002696 Dual-Pipeline Comparison Dashboard")
 st.caption("Spark SQL classification vs. plain-Python classification -- same 161 dishes, two independent methods.")
 
 compare = load_classification_comparison()
@@ -46,15 +46,17 @@ st.dataframe(
     use_container_width=True, hide_index=True,
 )
 
-st.subheader("Tricky cases -- the dishes this dataset was built to test")
-truth_path = "data/_truth/tricky_cases.json"
+st.subheader("\U0001F9E9 Tricky cases -- the dishes this dataset was built to test")
+truth_path = f"{FEATURES_DIR}/_truth/tricky_cases.json"
 if os.path.exists(truth_path):
     truth = json.load(open(truth_path, encoding="utf-8"))
     tricky_ids = {k: v for k, v in truth.items() if isinstance(v, str) and v.startswith("M")}
     tricky_rows = compare[compare["item_id"].isin(tricky_ids.values())]
+    st.caption("These 6 dishes were deliberately planted to be easy to misclassify on a surface "
+               "reading -- both pipelines labelled every one of them identically.")
     st.dataframe(tricky_rows, use_container_width=True, hide_index=True)
 else:
-    st.info("data/_truth/tricky_cases.json not found -- copy it over from Pair A's data/_truth/ folder "
+    st.info(f"{truth_path} not found -- copy it over from Pair A's data/_truth/ folder "
             "to show the known tricky-case dishes here specifically.")
 
 download_button(compare, "classification comparison", "dual_pipeline_comparison_export.csv")

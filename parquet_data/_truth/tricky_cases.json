@@ -1,0 +1,162 @@
+{
+  "loss_making_popular": "M025",
+  "hidden_high_margin": "M082",
+  "popular_high_wastage": "M083",
+  "highly_rated_low_margin": "M026",
+  "low_rated_high_sales": "M124",
+  "promo_dependent": "M143",
+  "weekend_only": [
+    "M157",
+    "M065"
+  ],
+  "seasonal": [
+    "M155",
+    "M156",
+    "M129"
+  ],
+  "new_item": "M027",
+  "price_sensitive": [
+    "M040",
+    "M065",
+    "M088",
+    "M010",
+    "M049",
+    "M016",
+    "M136",
+    "M092"
+  ],
+  "discontinued": [
+    "M112",
+    "M098",
+    "M129",
+    "M105",
+    "M106"
+  ],
+  "location_specific": [
+    "M064",
+    "M065",
+    "M066"
+  ],
+  "anomalous_locations": {
+    "extreme_wastage_and_low_ratings": "L15",
+    "sales_collapse": "L19",
+    "top_performer": "L09"
+  },
+  "planted_sales_events": {
+    "Zobo viral spike": [
+      "2025-09-20",
+      "2025-09-24"
+    ],
+    "Fresh Orange Juice stock-out": [
+      "2026-03-10",
+      "2026-03-18"
+    ],
+    "system outage (all locations)": [
+      "2025-02-12",
+      "2025-02-14"
+    ],
+    "grid failure": [
+      "2026-01-27",
+      "2026-01-27"
+    ],
+    "Owerri sales collapse": [
+      "2025-11-03",
+      "2025-11-23"
+    ],
+    "Women's Day corporate spike": [
+      "2025-03-08",
+      "2025-03-08"
+    ]
+  },
+  "customer_type_counts": {
+    "loyal": 4380,
+    "frequent": 8220,
+    "declining": 2800,
+    "promo": 9760,
+    "occasional": 23270,
+    "churned": 3819,
+    "new": 2751
+  },
+  "near_duplicate_order_ids": [
+    "ORD0112231",
+    "ORD0112232",
+    "ORD0112233",
+    "ORD0112234",
+    "ORD0112235",
+    "ORD0112236",
+    "ORD0112237",
+    "ORD0112238",
+    "ORD0112239",
+    "ORD0112240",
+    "ORD0112241",
+    "ORD0112242",
+    "ORD0112243",
+    "ORD0112244",
+    "ORD0112245",
+    "ORD0112246",
+    "ORD0112247",
+    "ORD0112248",
+    "ORD0112249",
+    "ORD0112250",
+    "ORD0112251",
+    "ORD0112252",
+    "ORD0112253",
+    "ORD0112254",
+    "ORD0112255"
+  ],
+  "planted_rating_events": {
+    "rating drop (Efo Riro & Amala)": [
+      "2025-08-04",
+      "2025-08-17"
+    ],
+    "5-star burst (Bottled Water)": [
+      "2026-05-11",
+      "2026-05-13"
+    ],
+    "identical 5-star ratings at L05 (Yaba)": [
+      "2025-06-16",
+      "2025-06-25"
+    ]
+  },
+  "dish_names": {
+    "M025": "Party Jollof Rice",
+    "M026": "Ofada Rice & Ayamase",
+    "M027": "Smoky Jollof Bowl",
+    "M082": "Point & Kill Croaker Fish",
+    "M083": "Suya Platter",
+    "M124": "Indomie Special",
+    "M143": "Chapman"
+  },
+  "promo_traps": {
+    "P001": "sales_up_profit_down",
+    "P002": "sales_up_profit_down",
+    "P003": "sales_up_profit_down",
+    "P004": "cannibalises_coconut_rice",
+    "P005": "cannibalises_coconut_rice",
+    "P006": "increases_wastage",
+    "P007": "increases_wastage",
+    "P008": "only_sells_when_discounted",
+    "P009": "only_sells_when_discounted",
+    "P010": "only_sells_when_discounted",
+    "P011": "only_sells_when_discounted",
+    "P012": "only_sells_when_discounted",
+    "P013": "only_sells_when_discounted",
+    "P014": "only_sells_when_discounted",
+    "P015": "only_sells_when_discounted",
+    "P016": "only_sells_when_discounted",
+    "P017": "only_sells_when_discounted",
+    "P018": "only_sells_when_discounted",
+    "P019": "only_sells_when_discounted",
+    "P020": "only_sells_when_discounted",
+    "P021": "only_sells_when_discounted",
+    "P022": "only_sells_when_discounted",
+    "P023": "only_sells_when_discounted",
+    "P024": "only_sells_when_discounted",
+    "P025": "only_sells_when_discounted",
+    "P026": "traffic_up_margin_collapse",
+    "P027": "traffic_up_margin_collapse",
+    "P028": "good_promo",
+    "P030": "increases_wastage",
+    "P035": "good_promo"
+  }
+}
