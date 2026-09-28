@@ -1,0 +1,44 @@
+promo_id,promo_name,promo_type,discount_pct,start_date,end_date,scope,applicable_items,category_id,location_id
+P001,Party Jollof Fest 30% Off,Percentage Off,30,2024-09-16,2024-09-29,ITEM,M025,,ALL
+P002,Party Jollof Fest 30% Off,Percentage Off,30,2025-03-10,2025-03-23,ITEM,M025,,ALL
+P003,Party Jollof Fest 30% Off,Percentage Off,30,2026-02-09,2026-02-22,ITEM,M025,,ALL
+P004,Fried Rice Fiesta 30% Off,Percentage Off,30,2025-04-07,2025-04-20,ITEM,M004|M005|M006,,ALL
+P005,Fried Rice Fiesta 30% Off,Percentage Off,30,2026-04-06,2026-04-19,ITEM,M004|M005|M006,,ALL
+P006,Suya Night 25% Off,Percentage Off,25,2024-11-04,2024-11-17,ITEM,M066|M067|M068|M069|M083,,ALL
+P007,Suya Night 25% Off,Percentage Off,25,2025-10-06,2025-10-19,ITEM,M066|M067|M068|M069|M083,,ALL
+P008,Chapman Happy Hour 40% Off,Happy Hour,40,2024-08-05,2024-08-09,ITEM,M143,,ALL
+P009,Chapman Happy Hour 40% Off,Happy Hour,40,2024-09-12,2024-09-16,ITEM,M143,,ALL
+P010,Chapman Happy Hour 40% Off,Happy Hour,40,2024-10-20,2024-10-24,ITEM,M143,,ALL
+P011,Chapman Happy Hour 40% Off,Happy Hour,40,2024-11-27,2024-12-01,ITEM,M143,,ALL
+P012,Chapman Happy Hour 40% Off,Happy Hour,40,2025-01-04,2025-01-08,ITEM,M143,,ALL
+P013,Chapman Happy Hour 40% Off,Happy Hour,40,2025-02-11,2025-02-15,ITEM,M143,,ALL
+P014,Chapman Happy Hour 40% Off,Happy Hour,40,2025-03-21,2025-03-25,ITEM,M143,,ALL
+P015,Chapman Happy Hour 40% Off,Happy Hour,40,2025-04-28,2025-05-02,ITEM,M143,,ALL
+P016,Chapman Happy Hour 40% Off,Happy Hour,40,2025-06-05,2025-06-09,ITEM,M143,,ALL
+P017,Chapman Happy Hour 40% Off,Happy Hour,40,2025-07-13,2025-07-17,ITEM,M143,,ALL
+P018,Chapman Happy Hour 40% Off,Happy Hour,40,2025-08-20,2025-08-24,ITEM,M143,,ALL
+P019,Chapman Happy Hour 40% Off,Happy Hour,40,2025-09-27,2025-10-01,ITEM,M143,,ALL
+P020,Chapman Happy Hour 40% Off,Happy Hour,40,2025-11-04,2025-11-08,ITEM,M143,,ALL
+P021,Chapman Happy Hour 40% Off,Happy Hour,40,2025-12-12,2025-12-16,ITEM,M143,,ALL
+P022,Chapman Happy Hour 40% Off,Happy Hour,40,2026-01-19,2026-01-23,ITEM,M143,,ALL
+P023,Chapman Happy Hour 40% Off,Happy Hour,40,2026-02-26,2026-03-02,ITEM,M143,,ALL
+P024,Chapman Happy Hour 40% Off,Happy Hour,40,2026-04-05,2026-04-09,ITEM,M143,,ALL
+P025,Chapman Happy Hour 40% Off,Happy Hour,40,2026-05-13,2026-05-17,ITEM,M143,,ALL
+P026,Weekend Warriors 20% Off Everything,Weekend,20,2025-06-06,2025-06-22,ALL,,,ALL
+P027,Weekend Warriors 20% Off Everything,Weekend,20,2026-05-01,2026-05-17,ALL,,,ALL
+P028,Weekend Brunch Launch 10% Off,Launch,10,2025-01-10,2025-02-09,ITEM,M157,,ALL
+P029,Zobo & Kunu 15% Off,Percentage Off,15,2025-08-11,2025-08-24,CATEGORY,,CAT11,ALL
+P030,Dessert Duo 20% Off,Percentage Off,20,2025-02-03,2025-02-16,CATEGORY,,CAT09,ALL
+P031,New Year Combos 10% Off,Seasonal,10,2024-12-26,2025-01-08,CATEGORY,,CAT12,ALL
+P032,New Year Combos 10% Off,Seasonal,10,2025-12-26,2026-01-08,CATEGORY,,CAT12,ALL
+P033,Ramadan Iftar Pack 15% Off,Seasonal,15,2025-03-01,2025-03-30,ITEM,M156,,ALL
+P034,Ramadan Iftar Pack 15% Off,Seasonal,15,2026-02-18,2026-03-19,ITEM,M156,,ALL
+P035,Lunch Box Combo 12% Off,Combo Deal,12,2024-10-01,2024-10-31,ITEM,M154,,ALL
+P036,Lekki Grand Opening 15% Off,Launch,15,2024-07-15,2024-08-14,ALL,,,L01
+P037,Wuse Loyalty Week 10% Off,Percentage Off,10,2025-09-01,2025-09-14,ALL,,,L09
+P038,Meat Pie 10% Off,Percentage Off,15,2025-04-28,2025-05-11,ITEM,M108,,ALL
+P039,Bitterleaf Soup & Pounded Yam 10% Off,Percentage Off,15,2026-04-07,2026-04-20,ITEM,M056,,ALL
+P040,Fried Plantain (Dodo) 10% Off,Percentage Off,10,2025-01-30,2025-02-12,ITEM,M085,,ALL
+P041,Fruit Salad 20% Off,Percentage Off,20,2024-08-19,2024-09-01,ITEM,M130,,ALL
+P042,Fresh Watermelon Juice 15% Off,Percentage Off,15,2025-07-23,2025-08-05,ITEM,M145,,ALL
+P043,Native Jollof (Palm Oil) 20% Off,Percentage Off,20,2025-08-04,2025-08-17,ITEM,M014,,ALL

@@ -1,0 +1,162 @@
+item_id,item_name,spark_label,python_label,agree
+M001,Jollof Rice - Small Portion,Hidden Opportunity,Hidden Opportunity,True
+M002,Jollof Rice - Regular Portion,Hidden Opportunity,Hidden Opportunity,True
+M003,Jollof Rice - Large Portion,Hidden Opportunity,Hidden Opportunity,True
+M004,Fried Rice - Small Portion,Profit Driver,Profit Driver,True
+M005,Fried Rice - Regular Portion,Volume Driver,Volume Driver,True
+M006,Fried Rice - Large Portion,Hidden Opportunity,Hidden Opportunity,True
+M007,Coconut Rice - Small Portion,Profit Driver,Profit Driver,True
+M008,Coconut Rice - Regular Portion,Profit Driver,Profit Driver,True
+M009,Coconut Rice - Large Portion,Hidden Opportunity,Hidden Opportunity,True
+M010,White Rice & Stew - Small Portion,Hidden Opportunity,Hidden Opportunity,True
+M011,White Rice & Stew - Regular Portion,Volume Driver,Volume Driver,True
+M012,White Rice & Stew - Large Portion,Profit Driver,Profit Driver,True
+M013,Native Jollof (Palm Oil) - Small Portion,Volume Driver,Volume Driver,True
+M014,Native Jollof (Palm Oil) - Regular Portion,Profit Driver,Profit Driver,True
+M015,Native Jollof (Palm Oil) - Large Portion,Profit Driver,Profit Driver,True
+M016,Concoction Rice - Small Portion,Hidden Opportunity,Hidden Opportunity,True
+M017,Concoction Rice - Regular Portion,Volume Driver,Volume Driver,True
+M018,Concoction Rice - Large Portion,Volume Driver,Volume Driver,True
+M019,Basmati Rice & Chicken Sauce - Small Portion,Profit Driver,Profit Driver,True
+M020,Basmati Rice & Chicken Sauce - Regular Portion,Profit Driver,Profit Driver,True
+M021,Basmati Rice & Chicken Sauce - Large Portion,Low Performer,Low Performer,True
+M022,Yam Porridge (Asaro) - Small Portion,Profit Driver,Profit Driver,True
+M023,Yam Porridge (Asaro) - Regular Portion,Profit Driver,Profit Driver,True
+M024,Yam Porridge (Asaro) - Large Portion,Profit Driver,Profit Driver,True
+M025,Party Jollof Rice,Volume Driver,Volume Driver,True
+M026,Ofada Rice & Ayamase,Volume Driver,Volume Driver,True
+M027,Smoky Jollof Bowl,Hidden Opportunity,Hidden Opportunity,True
+M028,Egusi Soup & Pounded Yam - Small Portion,Low Performer,Low Performer,True
+M029,Egusi Soup & Pounded Yam - Regular Portion,Low Performer,Low Performer,True
+M030,Egusi Soup & Pounded Yam - Large Portion,Volume Driver,Volume Driver,True
+M031,Oha Soup & Pounded Yam - Small Portion,Hidden Opportunity,Hidden Opportunity,True
+M032,Oha Soup & Pounded Yam - Regular Portion,Volume Driver,Volume Driver,True
+M033,Oha Soup & Pounded Yam - Large Portion,Low Performer,Low Performer,True
+M034,Efo Riro & Amala - Small Portion,Volume Driver,Volume Driver,True
+M035,Efo Riro & Amala - Regular Portion,Volume Driver,Volume Driver,True
+M036,Efo Riro & Amala - Large Portion,Low Performer,Low Performer,True
+M037,Banga Soup & Starch - Small Portion,Low Performer,Low Performer,True
+M038,Banga Soup & Starch - Regular Portion,Volume Driver,Volume Driver,True
+M039,Banga Soup & Starch - Large Portion,Hidden Opportunity,Hidden Opportunity,True
+M040,Afang Soup & Eba - Small Portion,Low Performer,Low Performer,True
+M041,Afang Soup & Eba - Regular Portion,Hidden Opportunity,Hidden Opportunity,True
+M042,Afang Soup & Eba - Large Portion,Volume Driver,Volume Driver,True
+M043,Ogbono Soup & Eba - Small Portion,Low Performer,Low Performer,True
+M044,Ogbono Soup & Eba - Regular Portion,Volume Driver,Volume Driver,True
+M045,Ogbono Soup & Eba - Large Portion,Volume Driver,Volume Driver,True
+M046,Edikang Ikong & Fufu - Small Portion,Volume Driver,Volume Driver,True
+M047,Edikang Ikong & Fufu - Regular Portion,Volume Driver,Volume Driver,True
+M048,Edikang Ikong & Fufu - Large Portion,Hidden Opportunity,Hidden Opportunity,True
+M049,Okro Soup & Semo - Small Portion,Hidden Opportunity,Hidden Opportunity,True
+M050,Okro Soup & Semo - Regular Portion,Volume Driver,Volume Driver,True
+M051,Okro Soup & Semo - Large Portion,Volume Driver,Volume Driver,True
+M052,Ewedu & Gbegiri Amala - Small Portion,Low Performer,Low Performer,True
+M053,Ewedu & Gbegiri Amala - Regular Portion,Volume Driver,Volume Driver,True
+M054,Ewedu & Gbegiri Amala - Large Portion,Profit Driver,Profit Driver,True
+M055,Bitterleaf Soup & Pounded Yam - Small Portion,Low Performer,Low Performer,True
+M056,Bitterleaf Soup & Pounded Yam - Regular Portion,Volume Driver,Volume Driver,True
+M057,Bitterleaf Soup & Pounded Yam - Large Portion,Volume Driver,Volume Driver,True
+M058,Vegetable Soup & Eba - Small Portion,Volume Driver,Volume Driver,True
+M059,Vegetable Soup & Eba - Regular Portion,Low Performer,Low Performer,True
+M060,Vegetable Soup & Eba - Large Portion,Low Performer,Low Performer,True
+M061,Nsala Soup & Pounded Yam - Small Portion,Low Performer,Low Performer,True
+M062,Nsala Soup & Pounded Yam - Regular Portion,Low Performer,Low Performer,True
+M063,Nsala Soup & Pounded Yam - Large Portion,Profit Driver,Profit Driver,True
+M064,Isi Ewu,Volume Driver,Volume Driver,True
+M065,Nkwobi,Volume Driver,Volume Driver,True
+M066,Beef Suya - Regular Portion,Volume Driver,Volume Driver,True
+M067,Beef Suya - Large Portion,Hidden Opportunity,Hidden Opportunity,True
+M068,Chicken Suya - Regular Portion,Volume Driver,Volume Driver,True
+M069,Chicken Suya - Large Portion,Low Performer,Low Performer,True
+M070,Grilled Tilapia - Regular Portion,Volume Driver,Volume Driver,True
+M071,Grilled Tilapia - Large Portion,Low Performer,Low Performer,True
+M072,Grilled Catfish - Regular Portion,Volume Driver,Volume Driver,True
+M073,Grilled Catfish - Large Portion,Profit Driver,Profit Driver,True
+M074,Asun (Peppered Goat) - Regular Portion,Volume Driver,Volume Driver,True
+M075,Asun (Peppered Goat) - Large Portion,Low Performer,Low Performer,True
+M076,Grilled Chicken - Regular Portion,Profit Driver,Profit Driver,True
+M077,Grilled Chicken - Large Portion,Low Performer,Low Performer,True
+M078,Roasted Turkey Wings - Regular Portion,Profit Driver,Profit Driver,True
+M079,Roasted Turkey Wings - Large Portion,Low Performer,Low Performer,True
+M080,Grilled Titus Fish - Regular Portion,Volume Driver,Volume Driver,True
+M081,Grilled Titus Fish - Large Portion,Volume Driver,Volume Driver,True
+M082,Point & Kill Croaker Fish,Hidden Opportunity,Hidden Opportunity,True
+M083,Suya Platter,Volume Driver,Volume Driver,True
+M084,Kilishi Pack,Hidden Opportunity,Hidden Opportunity,True
+M085,Fried Plantain (Dodo),Profit Driver,Profit Driver,True
+M086,Moi Moi,Profit Driver,Profit Driver,True
+M087,Extra Beef,Profit Driver,Profit Driver,True
+M088,Extra Chicken,Profit Driver,Profit Driver,True
+M089,Extra Fish,Profit Driver,Profit Driver,True
+M090,Coleslaw,Profit Driver,Profit Driver,True
+M091,Boiled Yam & Egg Sauce,Profit Driver,Profit Driver,True
+M092,Fried Yam & Pepper Sauce,Hidden Opportunity,Hidden Opportunity,True
+M093,Akara (5 pcs),Profit Driver,Profit Driver,True
+M094,Gizdodo,Profit Driver,Profit Driver,True
+M095,Ponmo (Cow Skin),Profit Driver,Profit Driver,True
+M096,Jollof Spaghetti,Profit Driver,Profit Driver,True
+M097,Ayamase Sauce,Hidden Opportunity,Hidden Opportunity,True
+M098,Ata Dindin,Hidden Opportunity,Hidden Opportunity,True
+M099,Turkey Stew,Hidden Opportunity,Hidden Opportunity,True
+M100,Fish Stew,Hidden Opportunity,Hidden Opportunity,True
+M101,Peppered Snail,Hidden Opportunity,Hidden Opportunity,True
+M102,Egg Sauce,Hidden Opportunity,Hidden Opportunity,True
+M103,Small Chops Platter,Hidden Opportunity,Hidden Opportunity,True
+M104,Puff Puff (10 pcs),Profit Driver,Profit Driver,True
+M105,Spring Rolls (6 pcs),Hidden Opportunity,Hidden Opportunity,True
+M106,Samosa (6 pcs),Hidden Opportunity,Hidden Opportunity,True
+M107,Chin Chin (Bowl),Profit Driver,Profit Driver,True
+M108,Meat Pie,Hidden Opportunity,Hidden Opportunity,True
+M109,Scotch Egg,Hidden Opportunity,Hidden Opportunity,True
+M110,Sausage Roll,Low Performer,Low Performer,True
+M111,Fish Roll,Hidden Opportunity,Hidden Opportunity,True
+M112,Shawarma Chicken,Hidden Opportunity,Hidden Opportunity,True
+M113,Goat Meat Pepper Soup - Regular Portion,Low Performer,Low Performer,True
+M114,Goat Meat Pepper Soup - Large Portion,Low Performer,Low Performer,True
+M115,Chicken Pepper Soup - Regular Portion,Volume Driver,Volume Driver,True
+M116,Chicken Pepper Soup - Large Portion,Volume Driver,Volume Driver,True
+M117,Assorted Pepper Soup - Regular Portion,Volume Driver,Volume Driver,True
+M118,Assorted Pepper Soup - Large Portion,Low Performer,Low Performer,True
+M119,Catfish Pepper Soup - Regular Portion,Hidden Opportunity,Hidden Opportunity,True
+M120,Catfish Pepper Soup - Large Portion,Low Performer,Low Performer,True
+M121,Akara & Pap,Hidden Opportunity,Hidden Opportunity,True
+M122,Yam & Egg,Profit Driver,Profit Driver,True
+M123,Bread & Egg Sauce,Volume Driver,Volume Driver,True
+M124,Indomie Special,Volume Driver,Volume Driver,True
+M125,Pancakes,Hidden Opportunity,Hidden Opportunity,True
+M126,Moi Moi & Custard,Profit Driver,Profit Driver,True
+M127,Tea & Bread,Hidden Opportunity,Hidden Opportunity,True
+M128,Oat Porridge,Hidden Opportunity,Hidden Opportunity,True
+M129,Ice Cream Sundae,Hidden Opportunity,Hidden Opportunity,True
+M130,Fruit Salad,Profit Driver,Profit Driver,True
+M131,Chocolate Cake Slice,Hidden Opportunity,Hidden Opportunity,True
+M132,Puff Puff & Ice Cream,Hidden Opportunity,Hidden Opportunity,True
+M133,Yogurt Parfait,Hidden Opportunity,Hidden Opportunity,True
+M134,Red Velvet Slice,Hidden Opportunity,Hidden Opportunity,True
+M135,Banana Bread Slice,Hidden Opportunity,Hidden Opportunity,True
+M136,Coke (50cl),Volume Driver,Volume Driver,True
+M137,Fanta (50cl),Volume Driver,Volume Driver,True
+M138,Sprite (50cl),Volume Driver,Volume Driver,True
+M139,Bottled Water,Volume Driver,Volume Driver,True
+M140,Malt (Maltina),Volume Driver,Volume Driver,True
+M141,Fresh Orange Juice,Volume Driver,Volume Driver,True
+M142,Pineapple Smoothie,Volume Driver,Volume Driver,True
+M143,Chapman,Hidden Opportunity,Hidden Opportunity,True
+M144,Lemonade,Volume Driver,Volume Driver,True
+M145,Fresh Watermelon Juice,Volume Driver,Volume Driver,True
+M146,Zobo,Hidden Opportunity,Hidden Opportunity,True
+M147,Kunu,Hidden Opportunity,Hidden Opportunity,True
+M148,Palm Wine (Fresh),Hidden Opportunity,Hidden Opportunity,True
+M149,Tigernut Drink,Hidden Opportunity,Hidden Opportunity,True
+M150,Ginger Shot,Hidden Opportunity,Hidden Opportunity,True
+M151,Fura da Nono,Hidden Opportunity,Hidden Opportunity,True
+M152,Party Pack,Volume Driver,Volume Driver,True
+M153,Family Combo,Low Performer,Low Performer,True
+M154,Lunch Box Combo,Low Performer,Low Performer,True
+M155,Christmas Special Rice,Volume Driver,Volume Driver,True
+M156,Iftar Pack,Low Performer,Low Performer,True
+M157,Weekend Brunch Combo,Hidden Opportunity,Hidden Opportunity,True
+M158,Couples Combo,Low Performer,Low Performer,True
+M159,Office Lunch Combo,Low Performer,Low Performer,True
+M160,Kids Meal,Low Performer,Low Performer,True
+M161,Breakfast Combo,Low Performer,Low Performer,True

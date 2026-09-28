@@ -1,0 +1,21 @@
+location_id,restaurant_name,city,area,region,seats,opened_date
+L01,DineIQ Lekki Phase 1,Lagos,Lekki,SW,95,2018-04-01
+L02,DineIQ Victoria Island,Lagos,Victoria Island,SW,118,2018-07-01
+L03,DineIQ Ikeja City Mall,Lagos,Ikeja,SW,109,2019-11-01
+L04,DineIQ Surulere,Lagos,Surulere,SW,77,2019-05-01
+L05,DineIQ Yaba,Lagos,Yaba,SW,93,2019-12-01
+L06,DineIQ Ajah,Lagos,Ajah,SW,75,2015-01-01
+L07,DineIQ Maryland,Lagos,Maryland,SW,76,2015-02-01
+L08,DineIQ Ikoyi,Lagos,Ikoyi,SW,91,2015-04-01
+L09,DineIQ Wuse II,Abuja,Wuse II,N,156,2022-01-01
+L10,DineIQ Garki,Abuja,Garki,N,89,2015-01-01
+L11,DineIQ Maitama,Abuja,Maitama,N,81,2020-03-01
+L12,DineIQ GRA Phase 2,Port Harcourt,GRA Phase 2,SS,97,2020-03-01
+L13,DineIQ Rumuola,Port Harcourt,Rumuola,SS,68,2019-03-01
+L14,DineIQ Bodija,Ibadan,Bodija,SW,66,2023-08-01
+L15,DineIQ Jericho,Ibadan,Jericho,SW,69,2017-03-01
+L16,DineIQ Independence Layout,Enugu,Independence Layout,SE,81,2022-08-01
+L17,DineIQ GRA Benin,Benin City,GRA,SS,65,2020-03-01
+L18,DineIQ Nassarawa GRA,Kano,Nassarawa GRA,N,74,2016-07-01
+L19,DineIQ Wetheral Road,Owerri,Wetheral Road,SE,62,2020-11-01
+L20,DineIQ Ikot Ekpene Road,Uyo,Ikot Ekpene Road,SS,61,2019-12-01

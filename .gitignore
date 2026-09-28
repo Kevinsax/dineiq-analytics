@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Large, fully-regenerable local artifacts -- see README.md "Regenerating the
+# full dataset" and processed_data/README.md for why these are not committed.
+# If you want to commit your own full local run anyway, delete these lines.
+data/raw/
+data/clean/
+data/joined/

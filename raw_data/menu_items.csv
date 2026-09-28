@@ -1,0 +1,162 @@
+item_id,item_name,category_id,base_price,base_cost,unit,description,is_active,introduced_date
+M001,Jollof Rice - Small Portion,CAT01,1750,720,portion,Jollof Rice - house recipe,True,2024-07-01
+M002,Jollof Rice - Regular Portion,CAT01,2500,850,Plate,Jollof Rice - house recipe,True,2025-03-07
+M003,Jollof Rice - Large Portion,CAT01,3500,1400,portion,Jollof Rice - house recipe,True,2024-07-01
+M004,Fried Rice - Small Portion,CAT01,1900,760,portion,Fried Rice - house recipe,True,2024-07-01
+M005,Fried Rice - Regular Portion,CAT01,2700,1110,Plate,Fried Rice - house recipe,True,2024-07-01
+M006,Fried Rice - Large Portion,CAT01,3800,1500,portion,Fried Rice - house recipe,True,2024-12-04
+M007,Coconut Rice - Small Portion,CAT01,2050,790,portion,Coconut Rice - house recipe,True,2024-07-01
+M008,Coconut Rice - Regular Portion,CAT01,2900,1200,portion,Coconut Rice - house recipe,True,2024-07-01
+M009,Coconut Rice - Large Portion,CAT01,4050,1560,portion,Coconut Rice - house recipe,True,2024-07-01
+M010,White Rice & Stew - Small Portion,CAT01,1550,610,portion,White Rice & Stew - house recipe,True,2024-07-01
+M011,White Rice & Stew - Regular Portion,CAT01,2200,930,portion,White Rice & Stew - house recipe,True,2024-07-01
+M012,White Rice & Stew - Large Portion,CAT01,3100,1250,Plate,White Rice & Stew - house recipe,True,2024-07-01
+M013,Native Jollof (Palm Oil) - Small Portion,CAT01,1950,820,portion,Native Jollof (Palm Oil) - house recipe,True,2024-07-01
+M014,Native Jollof (Palm Oil) - Regular Portion,CAT01,2800,1000,portion,Native Jollof (Palm Oil) - house recipe,True,2024-07-01
+M015,Native Jollof (Palm Oil) - Large Portion,CAT01,3900,1530,portion,Native Jollof (Palm Oil) - house recipe,True,2024-07-01
+M016,Concoction Rice - Small Portion,CAT01,2250,790,Plate,Concoction Rice - house recipe,True,2024-07-01
+M017,Concoction Rice - Regular Portion,CAT01,3200,1350,portion,Concoction Rice - house recipe,True,2024-07-01
+M018,Concoction Rice - Large Portion,CAT01,4500,1920,portion,Concoction Rice - house recipe,True,2024-07-01
+M019,Basmati Rice & Chicken Sauce - Small Portion,CAT01,2500,930,Plate,Basmati Rice & Chicken Sauce - house recipe,True,2024-07-01
+M020,Basmati Rice & Chicken Sauce - Regular Portion,CAT01,3600,1390,portion,Basmati Rice & Chicken Sauce - house recipe,True,2024-07-01
+M021,Basmati Rice & Chicken Sauce - Large Portion,CAT01,5050,2090,portion,Basmati Rice & Chicken Sauce - house recipe,True,2025-01-19
+M022,Yam Porridge (Asaro) - Small Portion,CAT01,1700,620,portion,Yam Porridge (Asaro) - house recipe,True,2024-07-01
+M023,Yam Porridge (Asaro) - Regular Portion,CAT01,2400,990,portion,Yam Porridge (Asaro) - house recipe,True,2024-07-01
+M024,Yam Porridge (Asaro) - Large Portion,CAT01,3350,1300,portion,Yam Porridge (Asaro) - house recipe,True,2024-07-01
+M025,Party Jollof Rice,CAT01,3200,4000,Plate,Party Jollof Rice - house recipe,True,2024-07-01
+M026,Ofada Rice & Ayamase,CAT01,3800,3420,portion,Ofada Rice & Ayamase - house recipe,True,2024-07-01
+M027,Smoky Jollof Bowl,CAT01,3000,1120,portion,Smoky Jollof Bowl - house recipe,True,2026-05-15
+M028,Egusi Soup & Pounded Yam - Small Portion,CAT02,2650,1230,portion,Egusi Soup & Pounded Yam - house recipe,True,2024-07-01
+M029,Egusi Soup & Pounded Yam - Regular Portion,CAT02,3800,1600,portion,Egusi Soup & Pounded Yam - house recipe,True,2024-07-01
+M030,Egusi Soup & Pounded Yam - Large Portion,CAT02,5300,2370,portion,Egusi Soup & Pounded Yam - house recipe,True,2024-07-01
+M031,Oha Soup & Pounded Yam - Small Portion,CAT02,2950,1210,portion,Oha Soup & Pounded Yam - house recipe,True,2024-07-01
+M032,Oha Soup & Pounded Yam - Regular Portion,CAT02,4200,1950,portion,Oha Soup & Pounded Yam - house recipe,True,2024-07-01
+M033,Oha Soup & Pounded Yam - Large Portion,CAT02,5900,2480,portion,Oha Soup & Pounded Yam - house recipe,True,2025-05-31
+M034,Efo Riro & Amala - Small Portion,CAT02,2400,1100,portion,Efo Riro & Amala - house recipe,True,2024-07-01
+M035,Efo Riro & Amala - Regular Portion,CAT02,3400,1530,portion,Efo Riro & Amala - house recipe,True,2024-07-01
+M036,Efo Riro & Amala - Large Portion,CAT02,4750,2150,portion,Efo Riro & Amala - house recipe,True,2024-07-01
+M037,Banga Soup & Starch - Small Portion,CAT02,3150,1310,portion,Banga Soup & Starch - house recipe,True,2024-07-01
+M038,Banga Soup & Starch - Regular Portion,CAT02,4500,2120,portion,Banga Soup & Starch - house recipe,True,2024-07-01
+M039,Banga Soup & Starch - Large Portion,CAT02,6300,2460,portion,Banga Soup & Starch - house recipe,True,2024-07-01
+M040,Afang Soup & Eba - Small Portion,CAT02,3000,1480,portion,Afang Soup & Eba - house recipe,True,2024-07-01
+M041,Afang Soup & Eba - Regular Portion,CAT02,4300,1740,portion,Afang Soup & Eba - house recipe,True,2024-07-01
+M042,Afang Soup & Eba - Large Portion,CAT02,6000,2490,portion,Afang Soup & Eba - house recipe,True,2024-07-01
+M043,Ogbono Soup & Eba - Small Portion,CAT02,2500,1130,portion,Ogbono Soup & Eba - house recipe,True,2025-03-09
+M044,Ogbono Soup & Eba - Regular Portion,CAT02,3600,1630,Plate,Ogbono Soup & Eba - house recipe,True,2024-07-01
+M045,Ogbono Soup & Eba - Large Portion,CAT02,5050,2250,portion,Ogbono Soup & Eba - house recipe,True,2024-07-01
+M046,Edikang Ikong & Fufu - Small Portion,CAT02,3100,1390,portion,Edikang Ikong & Fufu - house recipe,True,2024-07-01
+M047,Edikang Ikong & Fufu - Regular Portion,CAT02,4400,2080,portion,Edikang Ikong & Fufu - house recipe,True,2024-07-01
+M048,Edikang Ikong & Fufu - Large Portion,CAT02,6150,2480,portion,Edikang Ikong & Fufu - house recipe,True,2024-07-01
+M049,Okro Soup & Semo - Small Portion,CAT02,2250,980,portion,Okro Soup & Semo - house recipe,True,2024-07-01
+M050,Okro Soup & Semo - Regular Portion,CAT02,3200,1320,portion,Okro Soup & Semo - house recipe,True,2024-07-01
+M051,Okro Soup & Semo - Large Portion,CAT02,4500,1960,portion,Okro Soup & Semo - house recipe,True,2024-07-01
+M052,Ewedu & Gbegiri Amala - Small Portion,CAT02,2100,960,portion,Ewedu & Gbegiri Amala - house recipe,True,2024-07-01
+M053,Ewedu & Gbegiri Amala - Regular Portion,CAT02,3000,1210,portion,Ewedu & Gbegiri Amala - house recipe,True,2025-05-30
+M054,Ewedu & Gbegiri Amala - Large Portion,CAT02,4200,1680,portion,Ewedu & Gbegiri Amala - house recipe,True,2024-07-01
+M055,Bitterleaf Soup & Pounded Yam - Small Portion,CAT02,2800,1190,portion,Bitterleaf Soup & Pounded Yam - house recipe,True,2024-07-01
+M056,Bitterleaf Soup & Pounded Yam - Regular Portion,CAT02,4000,1920,portion,Bitterleaf Soup & Pounded Yam - house recipe,True,2024-07-01
+M057,Bitterleaf Soup & Pounded Yam - Large Portion,CAT02,5600,2500,portion,Bitterleaf Soup & Pounded Yam - house recipe,True,2024-07-01
+M058,Vegetable Soup & Eba - Small Portion,CAT02,2300,1030,portion,Vegetable Soup & Eba - house recipe,True,2024-07-01
+M059,Vegetable Soup & Eba - Regular Portion,CAT02,3300,1420,portion,Vegetable Soup & Eba - house recipe,True,2024-07-01
+M060,Vegetable Soup & Eba - Large Portion,CAT02,4600,2190,portion,Vegetable Soup & Eba - house recipe,True,2024-07-01
+M061,Nsala Soup & Pounded Yam - Small Portion,CAT02,3350,1460,portion,Nsala Soup & Pounded Yam - house recipe,True,2025-03-22
+M062,Nsala Soup & Pounded Yam - Regular Portion,CAT02,4800,2040,portion,Nsala Soup & Pounded Yam - house recipe,True,2024-07-01
+M063,Nsala Soup & Pounded Yam - Large Portion,CAT02,6700,2650,portion,Nsala Soup & Pounded Yam - house recipe,True,2024-07-01
+M064,Isi Ewu,CAT02,6500,3220,portion,Isi Ewu - house recipe,True,2024-07-01
+M065,Nkwobi,CAT02,5500,2480,portion,Nkwobi - house recipe,True,2024-07-01
+M066,Beef Suya - Regular Portion,CAT03,2500,1180,portion,Beef Suya - house recipe,True,2024-07-01
+M067,Beef Suya - Large Portion,CAT03,3500,1430,portion,Beef Suya - house recipe,True,2024-07-01
+M068,Chicken Suya - Regular Portion,CAT03,2800,1210,portion,Chicken Suya - house recipe,True,2024-07-01
+M069,Chicken Suya - Large Portion,CAT03,3900,1800,portion,Chicken Suya - house recipe,True,2024-07-01
+M070,Grilled Tilapia - Regular Portion,CAT03,5200,2390,portion,Grilled Tilapia - house recipe,True,2024-07-01
+M071,Grilled Tilapia - Large Portion,CAT03,7300,3370,portion,Grilled Tilapia - house recipe,True,2024-07-01
+M072,Grilled Catfish - Regular Portion,CAT03,5800,2420,portion,Grilled Catfish - house recipe,True,2024-07-01
+M073,Grilled Catfish - Large Portion,CAT03,8100,3220,Plate,Grilled Catfish - house recipe,True,2024-07-01
+M074,Asun (Peppered Goat) - Regular Portion,CAT03,4500,1960,portion,Asun (Peppered Goat) - house recipe,True,2024-07-01
+M075,Asun (Peppered Goat) - Large Portion,CAT03,6300,2820,portion,Asun (Peppered Goat) - house recipe,True,2024-07-01
+M076,Grilled Chicken - Regular Portion,CAT03,4800,1790,portion,Grilled Chicken - house recipe,True,2024-07-01
+M077,Grilled Chicken - Large Portion,CAT03,6700,2940,portion,Grilled Chicken - house recipe,True,2024-07-01
+M078,Roasted Turkey Wings - Regular Portion,CAT03,5000,2020,portion,Roasted Turkey Wings - house recipe,True,2024-07-01
+M079,Roasted Turkey Wings - Large Portion,CAT03,7000,2930,Plate,Roasted Turkey Wings - house recipe,True,2024-07-01
+M080,Grilled Titus Fish - Regular Portion,CAT03,4200,2110,portion,Grilled Titus Fish - house recipe,True,2024-07-01
+M081,Grilled Titus Fish - Large Portion,CAT03,5900,2730,portion,Grilled Titus Fish - house recipe,True,2024-07-01
+M082,Point & Kill Croaker Fish,CAT03,7800,2110,portion,Point & Kill Croaker Fish - house recipe,True,2024-07-01
+M083,Suya Platter,CAT03,6500,2730,portion,Suya Platter - house recipe,True,2024-07-01
+M084,Kilishi Pack,CAT03,3000,900,portion,Kilishi Pack - house recipe,True,2024-07-01
+M085,Fried Plantain (Dodo),CAT04,1200,400,portion,Fried Plantain (Dodo) - house recipe,True,2024-07-01
+M086,Moi Moi,CAT04,1000,320,portion,Moi Moi - house recipe,True,2024-07-01
+M087,Extra Beef,CAT04,1200,430,portion,Extra Beef - house recipe,True,2024-07-01
+M088,Extra Chicken,CAT04,1800,650,portion,Extra Chicken - house recipe,True,2024-07-01
+M089,Extra Fish,CAT04,2000,580,portion,Extra Fish - house recipe,True,2024-07-01
+M090,Coleslaw,CAT04,900,350,Plate,Coleslaw - house recipe,True,2024-07-01
+M091,Boiled Yam & Egg Sauce,CAT04,2200,820,portion,Boiled Yam & Egg Sauce - house recipe,True,2024-07-01
+M092,Fried Yam & Pepper Sauce,CAT04,2400,860,portion,Fried Yam & Pepper Sauce - house recipe,True,2024-07-01
+M093,Akara (5 pcs),CAT04,900,330,Plate,Akara (5 pcs) - house recipe,True,2024-07-01
+M094,Gizdodo,CAT04,2600,1030,portion,Gizdodo - house recipe,True,2024-07-01
+M095,Ponmo (Cow Skin),CAT04,1200,450,Plate,Ponmo (Cow Skin) - house recipe,True,2024-07-01
+M096,Jollof Spaghetti,CAT04,2000,750,portion,Jollof Spaghetti - house recipe,True,2024-07-01
+M097,Ayamase Sauce,CAT05,1500,430,portion,Ayamase Sauce - house recipe,True,2024-07-01
+M098,Ata Dindin,CAT05,1500,580,portion,Ata Dindin - house recipe,False,2024-07-01
+M099,Turkey Stew,CAT05,2500,820,portion,Turkey Stew - house recipe,True,2025-03-17
+M100,Fish Stew,CAT05,2200,680,portion,Fish Stew - house recipe,True,2024-07-01
+M101,Peppered Snail,CAT05,4200,1530,portion,Peppered Snail - house recipe,True,2024-07-01
+M102,Egg Sauce,CAT05,1500,530,portion,Egg Sauce - house recipe,True,2024-07-01
+M103,Small Chops Platter,CAT06,5500,1920,piece,Small Chops Platter - house recipe,True,2024-07-01
+M104,Puff Puff (10 pcs),CAT06,1500,540,Pc,Puff Puff (10 pcs) - house recipe,True,2024-07-01
+M105,Spring Rolls (6 pcs),CAT06,1800,710,piece,Spring Rolls (6 pcs) - house recipe,False,2024-07-01
+M106,Samosa (6 pcs),CAT06,1800,540,piece,Samosa (6 pcs) - house recipe,False,2024-07-01
+M107,Chin Chin (Bowl),CAT06,1200,450,piece,Chin Chin (Bowl) - house recipe,True,2024-07-01
+M108,Meat Pie,CAT06,1300,530,piece,Meat Pie - house recipe,True,2024-07-01
+M109,Scotch Egg,CAT06,1000,330,piece,Scotch Egg - house recipe,True,2025-05-15
+M110,Sausage Roll,CAT06,1000,420,Pc,Sausage Roll - house recipe,True,2025-05-18
+M111,Fish Roll,CAT06,1000,380,piece,Fish Roll - house recipe,True,2024-07-01
+M112,Shawarma Chicken,CAT06,3500,1230,piece,Shawarma Chicken - house recipe,False,2024-07-01
+M113,Goat Meat Pepper Soup - Regular Portion,CAT07,3800,1640,portion,Goat Meat Pepper Soup - house recipe,True,2024-07-01
+M114,Goat Meat Pepper Soup - Large Portion,CAT07,5300,2440,portion,Goat Meat Pepper Soup - house recipe,True,2024-07-01
+M115,Chicken Pepper Soup - Regular Portion,CAT07,3200,1310,portion,Chicken Pepper Soup - house recipe,True,2024-07-01
+M116,Chicken Pepper Soup - Large Portion,CAT07,4500,1940,portion,Chicken Pepper Soup - house recipe,True,2024-07-01
+M117,Assorted Pepper Soup - Regular Portion,CAT07,4500,1910,portion,Assorted Pepper Soup - house recipe,True,2024-07-01
+M118,Assorted Pepper Soup - Large Portion,CAT07,6300,2640,portion,Assorted Pepper Soup - house recipe,True,2024-07-01
+M119,Catfish Pepper Soup - Regular Portion,CAT07,4800,1720,portion,Catfish Pepper Soup - house recipe,True,2024-07-01
+M120,Catfish Pepper Soup - Large Portion,CAT07,6700,3200,portion,Catfish Pepper Soup - house recipe,True,2024-07-01
+M121,Akara & Pap,CAT08,1800,630,portion,Akara & Pap - house recipe,True,2024-07-01
+M122,Yam & Egg,CAT08,2200,770,portion,Yam & Egg - house recipe,True,2024-07-01
+M123,Bread & Egg Sauce,CAT08,1800,790,portion,Bread & Egg Sauce - house recipe,True,2024-07-01
+M124,Indomie Special,CAT08,2200,920,portion,Indomie Special - house recipe,True,2024-07-01
+M125,Pancakes,CAT08,2500,930,Plate,Pancakes - house recipe,True,2024-07-01
+M126,Moi Moi & Custard,CAT08,2000,760,portion,Moi Moi & Custard - house recipe,True,2024-07-01
+M127,Tea & Bread,CAT08,1500,560,portion,Tea & Bread - house recipe,True,2024-07-01
+M128,Oat Porridge,CAT08,1800,630,portion,Oat Porridge - house recipe,True,2024-07-01
+M129,Ice Cream Sundae,CAT09,2200,790,slice,Ice Cream Sundae - house recipe,False,2024-07-01
+M130,Fruit Salad,CAT09,1800,560,slice,Fruit Salad - house recipe,True,2024-07-01
+M131,Chocolate Cake Slice,CAT09,2400,830,slice,Chocolate Cake Slice - house recipe,True,2024-07-01
+M132,Puff Puff & Ice Cream,CAT09,2200,720,slice,Puff Puff & Ice Cream - house recipe,True,2024-07-01
+M133,Yogurt Parfait,CAT09,2000,620,slice,Yogurt Parfait - house recipe,True,2025-04-30
+M134,Red Velvet Slice,CAT09,2600,790,slice,Red Velvet Slice - house recipe,True,2024-07-01
+M135,Banana Bread Slice,CAT09,1600,510,slice,Banana Bread Slice - house recipe,True,2024-07-01
+M136,Coke (50cl),CAT10,700,420,bottle,Coke (50cl) - house recipe,True,2024-07-01
+M137,Fanta (50cl),CAT10,700,390,bottle,Fanta (50cl) - house recipe,True,2024-07-01
+M138,Sprite (50cl),CAT10,700,410,bottle,Sprite (50cl) - house recipe,True,2024-07-01
+M139,Bottled Water,CAT10,400,210,bottle,Bottled Water - house recipe,True,2024-07-01
+M140,Malt (Maltina),CAT10,900,490,bottle,Malt (Maltina) - house recipe,True,2024-07-01
+M141,Fresh Orange Juice,CAT10,1800,1030,bottle,Fresh Orange Juice - house recipe,True,2024-07-01
+M142,Pineapple Smoothie,CAT10,2200,1340,Btl,Pineapple Smoothie - house recipe,True,2024-07-01
+M143,Chapman,CAT10,2500,750,bottle,Chapman - house recipe,True,2024-07-01
+M144,Lemonade,CAT10,1600,840,bottle,Lemonade - house recipe,True,2024-07-01
+M145,Fresh Watermelon Juice,CAT10,1800,950,bottle,Fresh Watermelon Juice - house recipe,True,2024-07-01
+M146,Zobo,CAT11,1200,340,Cup,Zobo - house recipe,True,2024-07-01
+M147,Kunu,CAT11,1000,300,cup,Kunu - house recipe,True,2024-07-01
+M148,Palm Wine (Fresh),CAT11,2000,510,cup,Palm Wine (Fresh) - house recipe,True,2024-07-01
+M149,Tigernut Drink,CAT11,1500,470,Cup,Tigernut Drink - house recipe,True,2024-07-01
+M150,Ginger Shot,CAT11,1200,320,cup,Ginger Shot - house recipe,True,2024-07-01
+M151,Fura da Nono,CAT11,1300,360,Cup,Fura da Nono - house recipe,True,2024-07-01
+M152,Party Pack,CAT12,12500,6340,pack,Party Pack - house recipe,True,2024-07-01
+M153,Family Combo,CAT12,16500,7430,pack,Family Combo - house recipe,True,2024-07-01
+M154,Lunch Box Combo,CAT12,4500,2360,pack,Lunch Box Combo - house recipe,True,2024-07-01
+M155,Christmas Special Rice,CAT12,6500,3140,pack,Christmas Special Rice - house recipe,True,2024-07-01
+M156,Iftar Pack,CAT12,5500,2840,pack,Iftar Pack - house recipe,True,2024-07-01
+M157,Weekend Brunch Combo,CAT12,7500,2480,pack,Weekend Brunch Combo - house recipe,True,2025-05-27
+M158,Couples Combo,CAT12,9500,4880,pack,Couples Combo - house recipe,True,2024-07-01
+M159,Office Lunch Combo,CAT12,5200,2640,pack,Office Lunch Combo - house recipe,True,2024-07-01
+M160,Kids Meal,CAT12,3200,1600,pack,Kids Meal - house recipe,True,2024-07-01
+M161,Breakfast Combo,CAT12,4200,2030,pack,Breakfast Combo - house recipe,True,2024-07-01
