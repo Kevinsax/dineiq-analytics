@@ -13,9 +13,9 @@ evidence-backed recommendations.
 
 **Project Report:** [`reports/DineIQ_Project_Report.docx`](reports/DineIQ_Project_Report.docx)
 **AI Tool Usage Declaration:** [`AI_USAGE.md`](AI_USAGE.md) — read this too
-**Deployed application:** _[add your Streamlit Community Cloud URL here once deployed]_
+**Deployed application:** _[https://dineiq-analytics.streamlit.app/]_
 **Demonstration video:** _[add your .mp4 / video link here]_
-**Technical blog:** _[add your published blog post link here]_
+**Technical blog:** _[https://medium.com/@ibkfresh/inside-dineiq-analytics-building-a-dual-pipeline-big-data-brain-for-a-restaurant-chain-6bd99b29bdc2]_
 
 ---
 
@@ -297,9 +297,9 @@ Intelligence Arena competition.
 
 | Pair | Responsibility | Member(s) |
 |---|---|---|
-| Pair A | Big Data Foundation (Spark ingestion, quality, cleaning, joins, features) | _[add names]_ |
-| Pair B | Data Science & Machine Learning (classification, segmentation, basket analysis, wastage) | _[add names]_ |
-| Pair C | Application & Visualization (forecasting, recommendations, Streamlit dashboard) | _[add names]_ |
+| Pair A | Big Data Foundation (Spark ingestion, quality, cleaning, joins, features) | _[Nmesoma, Irene Okoji]_ |
+| Pair B | Data Science & Machine Learning (classification, segmentation, basket analysis, wastage) | _[Adeshina Adekunle , Caleb Edoho]_ |
+| Pair C | Application & Visualization (forecasting, recommendations, Streamlit dashboard) | _[Oyibo Nuhu, Anieto]_ |
 
 **Evaluator / administrator login credentials:** not applicable — the
 application has no authentication layer (see Limitations).
