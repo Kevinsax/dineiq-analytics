@@ -1,0 +1,19 @@
+# Runtime dependencies for the Streamlit dashboard ONLY.
+#
+# Streamlit Community Cloud looks for a requirements.txt in the same folder
+# as the main script (this one) before falling back to the repo root's
+# requirements.txt -- so this file, not the root one, is what actually gets
+# installed on the deployed app.
+#
+# Deliberately excludes pyspark, mlxtend, and faker: those are needed to
+# BUILD parquet_data/ and models/ (running the scripts in spark_jobs/,
+# spark_sql/, python_pipeline/, data_generator/), not to serve the dashboard,
+# which only ever reads those already-built files. Leaving them out keeps
+# the deployed build fast and avoids needing a JVM on Streamlit Cloud.
+
+streamlit>=1.32.0
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+plotly>=5.18.0
+scikit-learn>=1.3.0
