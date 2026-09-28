@@ -1,9 +1,8 @@
 """
 6_Recommendations.py  --  Pair C, Step 9: Recommendation Engine display (SRS Steps 37-39)
 
-Reads data/models/recommendations.csv, built by build_recommendations.py
-in this same folder (Step 8 of this guide's build order). Every row here
-already carries its own evidence -- this page just displays and filters it.
+Reads models/recommendations.csv, built by python_pipeline/build_recommendations.py.
+Every row here already carries its own evidence -- this page just displays and filters it.
 """
 import streamlit as st
 

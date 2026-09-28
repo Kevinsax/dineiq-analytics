@@ -1,19 +1,21 @@
 """
-app.py  --  Pair C, Step 3: Executive Dashboard (Home Page)
+Executive_Dashboard.py  --  Pair C, Step 3: Executive Dashboard (Home Page)
 
 This is the file you run to launch the whole app -- every other dashboard
 lives in pages/ and Streamlit wires them into the sidebar navigation
 automatically, purely from the filenames in that folder.
 
-Run from your project root:
-    streamlit run pair_c_app/app.py
+Run from the REPO ROOT (not from inside src/) -- utils.py's paths
+(MODELS_DIR, FEATURES_DIR, RAW_DIR) are relative to the repo root:
+    streamlit run src/Executive_Dashboard.py
 """
 import os
 
 import plotly.express as px
 import streamlit as st
 
-from utils import load_item_features, load_order_lines, load_restaurants, load_recommendations, sidebar_filters, download_button
+from utils import (load_item_features, load_order_lines, load_restaurants,
+                    load_recommendations, sidebar_filters, download_button, MODELS_DIR)
 
 st.set_page_config(page_title="DineIQ Analytics", page_icon="\U0001F37D", layout="wide")
 
@@ -72,7 +74,7 @@ st.divider()
 # subclass on purpose so an ordinary `except Exception` can't accidentally swallow it --
 # which means it wouldn't have hit an except block here anyway, just halted the page.
 st.subheader("Critical recommendations")
-if os.path.exists("data/models/recommendations.csv"):
+if os.path.exists(f"{MODELS_DIR}/recommendations.csv"):
     recs = load_recommendations()
     critical = recs[recs["priority"].isin(["Critical", "High"])].head(8)
     st.dataframe(critical[["item_name", "recommended_action", "reason", "priority"]], use_container_width=True, hide_index=True)

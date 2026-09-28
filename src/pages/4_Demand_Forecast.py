@@ -1,9 +1,9 @@
 """
 4_Demand_Forecast.py  --  Pair C, Step 7: Forecast Dashboard (SRS Step 46)
 
-Reads data/models/demand_forecast.parquet, which is NOT part of Pair B's
-handoff -- it's built by build_forecast.py in this same folder (Step 2 of
-this guide). Run that script first if this page errors out.
+Reads models/demand_forecast.parquet, which is NOT part of Pair B's
+handoff -- it's built by python_pipeline/build_forecast.py. Run that
+script first if this page errors out.
 """
 import plotly.graph_objects as go
 import streamlit as st

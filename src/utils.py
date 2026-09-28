@@ -3,16 +3,24 @@ utils.py -- shared data loading, filtering and export helpers for every
 dashboard page. Every page imports from here instead of re-reading parquet
 files itself, so a column-name fix only has to happen in one place.
 
-This file is not a page itself -- Streamlit ignores it, and app.py / the
-pages/ scripts import from it with `from utils import ...`.
+This file is not a page itself -- Streamlit ignores it, and
+Executive_Dashboard.py / the pages/ scripts import from it with
+`from utils import ...`.
+
+Path note: these are relative to the REPO ROOT, not to src/. Streamlit
+(both locally and on Streamlit Community Cloud) sets its working directory
+to wherever `streamlit run` was invoked from -- run it from the repo root
+with `streamlit run src/Executive_Dashboard.py`, not from inside src/, or
+these paths won't resolve. See the root README.md's "Launching the
+dashboard" section.
 """
 import os
 import pandas as pd
 import streamlit as st
 
-MODELS_DIR = "data/models"
-FEATURES_DIR = "data/features"
-RAW_DIR = "data/raw"
+MODELS_DIR = "models"
+FEATURES_DIR = "parquet_data"
+RAW_DIR = "raw_data"
 
 
 def _read_parquet(path):
@@ -57,7 +65,7 @@ def load_python_classification():
 def load_classification_comparison():
     path = f"{MODELS_DIR}/classification_comparison.csv"
     if not os.path.exists(path):
-        st.error(f"Missing file: `{path}`. Run compare_classifications.py in pair_b_models/ first.")
+        st.error(f"Missing file: `{path}`. Run python_pipeline/compare_classifications.py first.")
         st.stop()
     return pd.read_csv(path)
 
@@ -71,7 +79,7 @@ def load_customer_segments():
 def load_basket_rules():
     path = f"{MODELS_DIR}/basket_rules.csv"
     if not os.path.exists(path):
-        st.error(f"Missing file: `{path}`. Run basket_analysis.py in pair_b_models/ first.")
+        st.error(f"Missing file: `{path}`. Run python_pipeline/basket_analysis.py first.")
         st.stop()
     return pd.read_csv(path)
 

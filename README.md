@@ -198,9 +198,12 @@ python python_pipeline/build_recommendations.py    # recommendation engine (run 
 ```
 
 **5. Launch the dashboard application**
+
+Run this from the **repo root** (not from inside `src/`) — `utils.py` loads
+data using paths like `parquet_data/...` and `models/...`, which only
+resolve correctly if Streamlit's working directory is the repo root:
 ```
-cd src
-streamlit run Executive_Dashboard.py
+streamlit run src/Executive_Dashboard.py
 ```
 This opens the Executive Dashboard in your browser, with the other seven
 pages listed in the sidebar. From here you can: view customer segments
@@ -216,6 +219,29 @@ page has date/location/category/channel filters in the sidebar and a
 ```
 pytest tests/ -v
 ```
+
+## Deploying to Streamlit Community Cloud
+
+The dashboard only needs `pandas`, `numpy`, `pyarrow`, `plotly`,
+`scikit-learn` and `streamlit` at runtime — it reads the pre-computed
+`parquet_data/` and `models/` files directly, so PySpark/Java/mlxtend
+(needed only to *build* those files, not to serve the dashboard) are
+deliberately **not** installed on the deployed app. `src/requirements.txt`
+lists only what the app needs; Streamlit Cloud automatically prefers a
+`requirements.txt` in the same folder as the main script over the one at
+the repo root.
+
+1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with
+   your GitHub account.
+2. Click **New app** → **Deploy a public app from GitHub**.
+3. Repository: `Kevinsax/dineiq-analytics`. Branch: `main`.
+   Main file path: `src/Executive_Dashboard.py`.
+4. Click **Deploy**. The first build takes a couple of minutes while it
+   installs `src/requirements.txt`.
+5. Once it's live, copy the app's URL (`https://<something>.streamlit.app`)
+   into this README's top section and into your Project Report /
+   submission checklist as the Deployed Application URL (SRS Section
+   1.10, Item 13).
 
 **Login:** this application has no authentication layer in this submission
 (see Limitations) — there is no login step.
