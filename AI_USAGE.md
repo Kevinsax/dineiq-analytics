@@ -36,7 +36,7 @@ execution access.
 - **Testing completed:** the team re-ran both scripts against the full-scale
   dataset on their own machine after each fix and confirmed the scripts
   completed without error and produced the expected data-quality counts.
-- **Verified by:** [Adeshina Adekunle]
+- **Verified by:** Adeshina Adekunle
 
 ## 2. Debugging Pair B's classification handoff
 
