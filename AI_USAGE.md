@@ -57,7 +57,7 @@ execution access.
   confirmed both `data/models/item_classification_spark.parquet` and
   `item_classification_python.parquet` were now single files openable the
   same way, and confirmed the CSV exports opened correctly in Excel.
-- **Verified by:** [Caleb Edoho]
+- **Verified by:** Caleb Edoho
 
 ## 3. Windows environment troubleshooting (advisory, no code produced)
 
@@ -74,7 +74,7 @@ execution access.
   their own machine, following the recommended steps.
 - **Testing completed:** the team member confirmed their environment worked
   afterward by re-running the previously-failing script.
-- **Verified by:** [Adeshina Adekunle]
+- **Verified by:** Adeshina Adekunle
 
 ## 4. Building the Pair C application (new code)
 
@@ -107,7 +107,7 @@ execution access.
   screenshot of the running Executive Dashboard showing real computed totals
   (Total Revenue, Total Profit, Total Orders, active customers, menu item
   count) that matched what the pipeline output predicted.
-- **Verified by:** [Oyibo Nuhu & Anieto]
+- **Verified by:** Oyibo Nuhu & Anieto
 
 ## 5. Technical diagrams
 
@@ -127,7 +127,7 @@ execution access.
   real script/data-model files (`spark_jobs/join_data.py`,
   `documentation/DATA_MODEL.md`, `documentation/HANDOFF.md`) to confirm
   accuracy before inclusion.
-- **Verified by:** [Oyibo Nuhu & Nmesoma]
+- **Verified by:** Oyibo Nuhu & Nmesoma
 
 ## 6. Project Report
 
@@ -145,7 +145,7 @@ execution access.
   source `.md` files during drafting; the team should read the full report
   before submission to confirm it accurately represents their work and their
   own understanding of it.
-- **Verified by:** [Irene Okoji]
+- **Verified by:** Irene Okoji
 
 ## 7. GitHub repository structuring
 
@@ -166,7 +166,7 @@ execution access.
   this authoring step; the team should run `pytest tests/ -v` themselves
   after installing `requirements.txt` and confirm it passes before
   submission.
-- **Verified by:** [Adeshina Adekunle]
+- **Verified by:** Adeshina Adekunle
 
 ---
 

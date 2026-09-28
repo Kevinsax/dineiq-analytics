@@ -297,9 +297,9 @@ Intelligence Arena competition.
 
 | Pair | Responsibility | Member(s) |
 |---|---|---|
-| Pair A | Big Data Foundation (Spark ingestion, quality, cleaning, joins, features) | _[Nmesoma, Irene Okoji]_ |
-| Pair B | Data Science & Machine Learning (classification, segmentation, basket analysis, wastage) | _[Adeshina Adekunle , Caleb Edoho]_ |
-| Pair C | Application & Visualization (forecasting, recommendations, Streamlit dashboard) | _[Oyibo Nuhu, Anieto]_ |
+| Pair A | Big Data Foundation (Spark ingestion, quality, cleaning, joins, features) | _Nmesoma, Irene Okoji_ |
+| Pair B | Data Science & Machine Learning (classification, segmentation, basket analysis, wastage) | _Adeshina Adekunle , Caleb Edoho_ |
+| Pair C | Application & Visualization (forecasting, recommendations, Streamlit dashboard) | _Oyibo Nuhu, Anieto_ |
 
 **Evaluator / administrator login credentials:** not applicable — the
 application has no authentication layer (see Limitations).
