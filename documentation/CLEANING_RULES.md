@@ -33,9 +33,11 @@ All cleaning rules above were re-run and confirmed against the full-scale datase
 | pricing_history | exact duplicate rows | Same record loaded twice, so one copy is kept. | 0 |
 | promotions | exact duplicate rows | Same record loaded twice, so one copy is kept. | 0 |
 
+
 Notes
 
 - Cancelled orders are kept. Filter `status == "Completed"` when calculating revenue.
 - Missing `signup_date` on a customer is left as null, not guessed.
 - Missing `customer_id` on a rating is left as null; the rating still counts toward the dish average.
 - `channel` and `status` on orders, `home_city` on customers, and `unit` on inventory are standardised to one consistent casing (e.g. "dine-in" and "DINE-IN " both become "Dine-in").
+"Verified against the actual join keys in spark_jobs/join_data.py — Nmesoma.
