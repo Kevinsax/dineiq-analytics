@@ -13,9 +13,9 @@ evidence-backed recommendations.
 
 **Project Report:** [`reports/DineIQ_Project_Report.docx`](reports/DineIQ_Project_Report.docx)
 **AI Tool Usage Declaration:** [`AI_USAGE.md`](AI_USAGE.md) — read this too
-**Deployed application:** 
-**Demonstration video:** _[(https://drive.google.com/file/d/171T0bWuea0x6p3ygdycJR8b-eSy8HbvK/view?usp=sharing)]_
-**Technical blog:** 
+**Deployed application:** : _https://dineiq-analytics.streamlit.app/_
+**Demonstration video:** _(https://drive.google.com/file/d/171T0bWuea0x6p3ygdycJR8b-eSy8HbvK/view?usp=sharing)_
+**Technical blog:** : _https://medium.com/@ibkfresh/inside-dineiq-analytics-building-a-dual-pipeline-big-data-brain-for-a-restaurant-chain-6bd99b29bdc2_
 
 ---
 
