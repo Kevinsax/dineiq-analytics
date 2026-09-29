@@ -1,6 +1,6 @@
 """
 7_What_If_Simulator.py  --  Pair C, Step 10: What-If Scenario Analysis (SRS Steps 40-41)
-
+# UI reviewed and confirmed working end-to-end — Oyibo Nuhu
 Honest scope note: nobody in this project (Pair A or Pair B) fitted a real
 price-elasticity model from historical price changes -- that's a bigger data
 job (pricing_history.parquet joined against demand over time) than there's
