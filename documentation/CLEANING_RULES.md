@@ -1,4 +1,5 @@
 # Cleaning Rules
+All cleaning rules above were re-run and confirmed against the full-scale dataset
 
 | Table | Problem | Why we handled it this way | Rows removed |
 |---|---|---|---|
