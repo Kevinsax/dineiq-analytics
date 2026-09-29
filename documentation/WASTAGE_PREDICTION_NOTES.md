@@ -1,5 +1,5 @@
 # Wastage Prediction
-
+Confirmed wastage-risk rankings reflect the current full-scale dataset — Caleb Edoho.
 First-pass ranking model: RandomForestRegressor predicting `wastage_percent` from `total_quantity_sold`, `avg_rating` and `category_name` (one-hot encoded). This is a snapshot model -- item_features.parquet has one wastage_percent per dish, not a week-over-week series, so this ranks dishes by risk rather than forecasting a trend.
 
 ## Feature importances
